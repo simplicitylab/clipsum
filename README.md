@@ -32,9 +32,21 @@ clipsum -t lorem -w 50
 clipsum -t nl -s 20
 ```
 
-**Directly copying to mac clipboard**
+**Directly copying text to mac clipboard**
 
 ```
 clipsum -t fr -s 10 | pbcopy
 ```
 
+## Available texts
+
+```
+Available texts:
+----------------
+ * lorem            Lorem ipsum (default)
+ * en               English text
+ * nl               Dutch text
+ * fr               French text
+ * de               German text
+ * es               Spanish text
+```

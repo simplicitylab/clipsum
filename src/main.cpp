@@ -57,6 +57,7 @@ int main(int argc, char* argv[])
       std::cout<< " * de               German text" <<std::endl;
       std::cout<< " * es               Spanish text" <<std::endl;
       std::cout<<std::endl;
+      exit(0);
     }
 
     // if text option has been passed
