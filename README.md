@@ -1,5 +1,7 @@
 # clipsum
 
+A commandline Ipsum generator 
+
 ## Usage
 
 ```
