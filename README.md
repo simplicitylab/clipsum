@@ -1,6 +1,6 @@
-# clipsum
+# CLIpsum
 
-A commandline Lorem Ipsum (or text in other languages) generator.
+A CLI Lorem Ipsum (or text in other languages) generator.
 
 ## Usage
 
@@ -34,7 +34,7 @@ clipsum -t lorem -w 50
 clipsum -t nl -s 20
 ```
 
-**Directly copying text to mac clipboard**
+**Directly copying generated text to OSX clipboard**
 
 ```
 clipsum -t fr -s 10 | pbcopy
