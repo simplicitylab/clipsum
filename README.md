@@ -11,3 +11,30 @@ clipsum [OPTION...] CLI Lipsum generator - written by Glenn De Backer <glenn@sim
 -s, --sentences number  Extract sentences
 -h, --help              Print help
 ```
+
+## Examples
+
+**Generating lorem ipsum text of 10 sentences**
+
+```
+clipsum -t lorem -s 10
+```
+
+**Generating lorem ipsum text of 50 words**
+
+```
+clipsum -t lorem -w 50
+```
+
+**Generating dutch text of 20 sentences**
+
+```
+clipsum -t nl -s 20
+```
+
+**Directly copying to mac clipboard**
+
+```
+clipsum -t fr -s 10 | pbcopy
+```
+
