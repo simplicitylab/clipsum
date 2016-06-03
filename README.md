@@ -2,6 +2,12 @@
 
 A CLI Lorem Ipsum (or text in other languages) generator.
 
+## Installation
+
+```
+make ; make install
+```
+
 ## Usage
 
 ```
