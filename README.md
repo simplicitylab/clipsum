@@ -5,7 +5,8 @@ A CLI Lorem Ipsum (or text in other languages) generator.
 ## Installation
 
 ```
-make ; make install
+make
+make install
 ```
 
 ## Usage
@@ -57,4 +58,10 @@ Available texts:
  * fr               French text
  * de               German text
  * es               Spanish text
+```
+
+## uninstall
+
+```
+make uninstall
 ```
