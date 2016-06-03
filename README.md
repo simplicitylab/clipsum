@@ -65,3 +65,7 @@ Available texts:
 ```
 make uninstall
 ```
+
+## License
+
+GPLv2 - see LICENSE
