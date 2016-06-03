@@ -4,6 +4,8 @@ A CLI Lorem Ipsum (or text in other languages) generator.
 
 ## Installation
 
+Clone repository and run the following command in your terminal
+
 ```
 make
 make install
