@@ -1,6 +1,6 @@
 # clipsum
 
-A commandline Ipsum generator 
+A commandline Lorem Ipsum (or text in other languages) generator.
 
 ## Usage
 
