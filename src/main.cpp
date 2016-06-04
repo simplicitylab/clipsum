@@ -20,9 +20,45 @@
 #include "../include/ru.h"
 #include "../include/se.h"
 #include "../include/no.h"
+#include "../include/fi.h"
 
 // enum that defines our extract types
 enum ExtractTypes { words, sentences};
+
+/**
+ * Gets our source text
+ * @param string textName name of text
+ * @return string source text
+ */
+std::string getSourceText(std::string textName){
+  if(textName.compare("lorem") == 0){
+    return loremText;
+  }else if(textName.compare("en") == 0){
+    return enText;
+  }else if(textName.compare("nl") == 0){
+    return nlText;
+  }else if(textName.compare("fr") == 0){
+    return frText;
+  }else if(textName.compare("de") == 0){
+    return deText;
+  }else if(textName.compare("es") == 0){
+    return esText;
+  }else if(textName.compare("pt") == 0){
+    return ptText;
+  }else if(textName.compare("it") == 0){
+    return itText;
+  }else if(textName.compare("ru") == 0){
+    return ruText;
+  }else if(textName.compare("se") == 0){
+    return seText;
+  }else if(textName.compare("no") == 0){
+    return noText;
+  }else if(textName.compare("fi") == 0){
+    return fiText;
+  }else{
+    return loremText;
+  }
+}
 
 /**
  * Main entry
@@ -71,6 +107,8 @@ int main(int argc, char* argv[])
       std::cout<< " * ru               Russian text" <<std::endl;
       std::cout<< " * se               Swedish text" <<std::endl;
       std::cout<< " * no               Norwegian text" <<std::endl;
+      std::cout<< " * fi               Finnish text" <<std::endl;
+      
       std::cout<<std::endl;
       exit(0);
     }
@@ -81,32 +119,8 @@ int main(int argc, char* argv[])
       // text that has been chosen
       std::string chosenText =  options["text"].as<std::string>();
 
-      // determine which text we will be using
-      if(chosenText.compare("lorem") == 0){
-        sourceText = loremText;
-      }else if(chosenText.compare("en") == 0){
-        sourceText = enText;
-      }else if(chosenText.compare("nl") == 0){
-        sourceText = nlText;
-      }else if(chosenText.compare("fr") == 0){
-        sourceText = frText;
-      }else if(chosenText.compare("de") == 0){
-        sourceText = deText;
-      }else if(chosenText.compare("es") == 0){
-        sourceText = esText;
-      }else if(chosenText.compare("pt") == 0){
-        sourceText = ptText;
-      }else if(chosenText.compare("it") == 0){
-        sourceText = itText;
-      }else if(chosenText.compare("ru") == 0){
-        sourceText = ruText;
-      }else if(chosenText.compare("se") == 0){
-        sourceText = seText;
-      }else if(chosenText.compare("no") == 0){
-        sourceText = noText;
-      }else{
-        sourceText = loremText;
-      }
+      // get our source text
+      sourceText = getSourceText(chosenText);
     }
 
     // if sentence option has been passed
