@@ -70,6 +70,8 @@ clipsum -t fr -s 10 | pbcopy
 * ru               Russian text
 * se               Swedish text
 * no               Norwegian text
+* fi               Finnish text
+* dk               Danish text
 ```
 
 ## Running tests
