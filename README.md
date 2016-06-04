@@ -9,6 +9,13 @@ A CLI Lorem Ipsum (or text in other languages) generator. It main focus is gener
 
 *In principle any platform with a C++ compiler that supports C++11 should work.*
 
+## Installation (using [Homebrew](http://brew.sh/))
+
+```
+brew tap simplicitylab/tap
+brew install clipsum
+```
+
 ## Installation from source
 
 Clone the repository and run the following command in your terminal
