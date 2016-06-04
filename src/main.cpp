@@ -19,6 +19,7 @@
 #include "../include/pt.h"
 #include "../include/ru.h"
 #include "../include/se.h"
+#include "../include/no.h"
 
 // enum that defines our extract types
 enum ExtractTypes { words, sentences};
@@ -69,6 +70,7 @@ int main(int argc, char* argv[])
       std::cout<< " * it               Italian text" <<std::endl;
       std::cout<< " * ru               Russian text" <<std::endl;
       std::cout<< " * se               Swedish text" <<std::endl;
+      std::cout<< " * no               Norwegian text" <<std::endl;
       std::cout<<std::endl;
       exit(0);
     }
@@ -100,6 +102,8 @@ int main(int argc, char* argv[])
         sourceText = ruText;
       }else if(chosenText.compare("se") == 0){
         sourceText = seText;
+      }else if(chosenText.compare("no") == 0){
+        sourceText = noText;
       }else{
         sourceText = loremText;
       }
