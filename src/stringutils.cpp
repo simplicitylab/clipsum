@@ -30,7 +30,7 @@ std::string StringUtils::extractSentences(int numberOfSentences, std::string tex
   std::vector<std::string> sentences;
 
   // split our text into sentences
-  std::regex rgx ("(.*?)\\.");
+  std::regex rgx ("(.*?)(\\.|\\!|\\?)");
 
   std::regex_iterator<std::string::iterator> rit ( text.begin(), text.end(), rgx );
   std::regex_iterator<std::string::iterator> rend;

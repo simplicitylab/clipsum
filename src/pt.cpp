@@ -5,10 +5,9 @@
  * @author Glenn De Backer <glenn@simplicity.be>
  *
  *****************************************************/
+#include "../include/pt.h"
 
-#include "../include/fr.h"
-
-std::string frText = R"(Durante a guerra federal dos Estados Unidos fundou-se, na cidade de Baltimore, mesmo no centro do Maryland, um novo club de grande influencia.
+std::string ptText = R"(Durante a guerra federal dos Estados Unidos fundou-se, na cidade de Baltimore, mesmo no centro do Maryland, um novo club de grande influencia.
 
 É notoria a energia com que se desenvolveram os instinctos militares por entre aquella população de armadores, de negociantes e de machinistas. Insignificantes mercadores saltaram por cima do balcão e acharam-se de improviso transformados em capitães, em coroneis e até em generaes, sem terem passado pelas escolas de applicação de West-Point; em curto espaço foram na _arte da guerra_ dignos rivaes dos collegas do velho continente, e, á imitação d'estes, alcançaram, á força de prodigalisar balas, milhões e homens, brilhantes victorias.
 
