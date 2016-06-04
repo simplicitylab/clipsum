@@ -59,17 +59,16 @@ clipsum -t fr -s 10 | pbcopy
 ## Available texts
 
 ```
-Available texts:
-----------------
-  * lorem            Lorem ipsum (default)
-  * en               English text
-  * nl               Dutch text
-  * fr               French text
-  * de               German text
-  * es               Spanish text
-  * pt               Portuguese text
-  * it               Italian text
-  * ru               Russian text
+* lorem            Lorem ipsum (default)
+* en               English text
+* nl               Dutch text
+* fr               French text
+* de               German text
+* es               Spanish text
+* pt               Portuguese text
+* it               Italian text
+* ru               Russian text
+* se               Swedish text
 ```
 
 ## Running tests
