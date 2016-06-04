@@ -75,6 +75,13 @@ Available texts:
 make test
 ```
 
+If all is correct you should see the following output
+
+``` 
+===============================================================================
+All tests passed (2 assertions in 2 test cases)
+```
+
 ## Uninstall
 
 ```
