@@ -11,7 +11,7 @@ A CLI Lorem Ipsum (or text in other languages) generator. It main focus is gener
 
 ## Installation from source
 
-Clone repository and run the following command in your terminal
+Clone the repository and run the following command in your terminal
 
 ```
 make
@@ -61,12 +61,14 @@ clipsum -t fr -s 10 | pbcopy
 ```
 Available texts:
 ----------------
- * lorem            Lorem ipsum (default)
- * en               English text
- * nl               Dutch text
- * fr               French text
- * de               German text
- * es               Spanish text
+  * lorem            Lorem ipsum (default)
+  * en               English text
+  * nl               Dutch text
+  * fr               French text
+  * de               German text
+  * es               Spanish text
+  * pt               Portuguese text
+  * it               Italian text
 ```
 
 ## Running tests

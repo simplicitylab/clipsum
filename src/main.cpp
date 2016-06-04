@@ -8,6 +8,7 @@
 #include <iostream>
 
 #include "../include/cxxopts.h"
+#include "../include/stringutils.h"
 #include "../include/lorem.h"
 #include "../include/en.h"
 #include "../include/nl.h"
@@ -16,7 +17,7 @@
 #include "../include/es.h"
 #include "../include/it.h"
 #include "../include/pt.h"
-#include "../include/stringutils.h"
+#include "../include/ru.h"
 
 // enum that defines our extract types
 enum ExtractTypes { words, sentences};
@@ -65,6 +66,7 @@ int main(int argc, char* argv[])
       std::cout<< " * es               Spanish text" <<std::endl;
       std::cout<< " * pt               Portuguese text" <<std::endl;
       std::cout<< " * it               Italian text" <<std::endl;
+      std::cout<< " * ru               Russian text" <<std::endl;
       std::cout<<std::endl;
       exit(0);
     }
@@ -92,6 +94,8 @@ int main(int argc, char* argv[])
         sourceText = ptText;
       }else if(chosenText.compare("it") == 0){
         sourceText = itText;
+      }else if(chosenText.compare("ru") == 0){
+        sourceText = ruText;
       }else{
         sourceText = loremText;
       }
