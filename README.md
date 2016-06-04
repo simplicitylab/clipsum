@@ -2,7 +2,16 @@
 
 A CLI Lorem Ipsum (or text in other languages) generator.
 
-## Installation
+## Platforms
+
+Tested on
+
+* Linux
+* OSX
+
+In principle any C++ compiler that supports C++11 should work.
+
+## Installation from source
 
 Clone repository and run the following command in your terminal
 
