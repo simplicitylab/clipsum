@@ -21,6 +21,7 @@
 #include "../include/se.h"
 #include "../include/no.h"
 #include "../include/fi.h"
+#include "../include/dk.h"
 
 // enum that defines our extract types
 enum ExtractTypes { words, sentences};
