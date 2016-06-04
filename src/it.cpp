@@ -6,7 +6,7 @@
  *
  *****************************************************/
 
-#include "../include/es.h"
+#include "../include/it.h"
 
 std::string itText = R"(I mercanti genovesi e veneziani non potevano rimanere indifferenti alle esplorazioni che arditi viaggiatori tentavano nell'Asia centrale, l'India e la China. Essi comprendevano che queste contrade offrirebbero in breve un nuovo sfogo ai loro prodotti, e che, d'altra parte, utili immensi si ricaverebbero dall'importazione in Occidente di mercanzie di fabbricazione orientale. Gl'interessi del commercio dovevano quindi lanciare dei nuovi cercatori sulle vie delle scoperte. Queste furono le ragioni che decisero due nobili veneziani ad abbandonare la loro patria ed a sfidare tutte le fatiche e tutti i pericoli di quei perigliosi viaggi, allo scopo d'estendere le loro relazioni commerciali.
 

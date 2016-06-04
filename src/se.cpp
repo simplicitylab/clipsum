@@ -5,7 +5,7 @@
  * @author Glenn De Backer <glenn@simplicity.be>
  *
  *****************************************************/
-#include "../include/pt.h"
+#include "../include/se.h"
 
 std::string seText = R"(En fremling, som uppehåller sig någon tid i London, underlåter väl icke gerna, ifall han har sinne för folksång och folkmelodier, att besöka Evans' Music and Supper Rooms i Covent-garden. Bland de många sånger, hvilka hafva bifallet för dagen och för närvarande äro gängse hos folket, träffas hans öron der af en dikt med egendomligt innehåll. Den berömde sir H.R. Bishop har arrangerat musiken, och genom det hela går en ton af skogsdoft och jägarlust. "Robin Hood, så säges det i sången, är den bäste jägare, som någonsin spände sin båge i en grönskande skog. Till ljudet af hans gälla horn svarar ekot vidt och bredt, och lyssnande samla sig de gula rådjuren mellan träden. Och har väl någon sett en tärna så öm som Marion, den grönklädde skogsmannens stolthet? Hell, denna jungfru-drottning, den milda blomman! Vi lefva och dö henne trogne. Hell Robin och Marion, Robin och Marion! länge skall Sherwood genljuda af deras ära." Så ungefär lyder sången, hvilken ännu bevarar minnet af den engång så berömde fribytaren och hans tärna, under hvilken sednares namn den tar tillfället i akt, att bringa ett hell åt Englands jungfru-drottning, "Maiden-queen". Detta kan icke vara någon annan än drottning Elisabeth.
 
