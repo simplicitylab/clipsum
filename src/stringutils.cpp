@@ -1,3 +1,11 @@
+/*****************************************************
+ *
+ * StringUtils class
+ *
+ * @author Glenn De Backer <glenn@simplicity.be>
+ *
+ *****************************************************/
+
 #include "../include/stringutils.h"
 
 /**

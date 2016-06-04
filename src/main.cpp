@@ -1,3 +1,10 @@
+/*****************************************************
+ * Main entry
+ *
+ * @author Glenn De Backer <glenn@simplicity.be>
+ *
+ *****************************************************/
+
 #include <iostream>
 #include <iomanip>
 #include <regex>
@@ -10,6 +17,7 @@
 #include "../include/fr.h"
 #include "../include/es.h"
 #include "../include/it.h"
+#include "../include/pt.h"
 #include "../include/stringutils.h"
 
 // enum that defines our extract types
@@ -57,6 +65,7 @@ int main(int argc, char* argv[])
       std::cout<< " * fr               French text" <<std::endl;
       std::cout<< " * de               German text" <<std::endl;
       std::cout<< " * es               Spanish text" <<std::endl;
+      std::cout<< " * pt               Portuguese text" <<std::endl;
       std::cout<< " * it               Italian text" <<std::endl;
       std::cout<<std::endl;
       exit(0);
@@ -81,6 +90,8 @@ int main(int argc, char* argv[])
         sourceText = deText;
       }else if(chosenText.compare("es") == 0){
         sourceText = esText;
+      }else if(chosenText.compare("pt") == 0){
+        sourceText = ptText;
       }else if(chosenText.compare("it") == 0){
         sourceText = itText;
       }else{

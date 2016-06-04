@@ -1,3 +1,10 @@
+/*****************************************************
+ *
+ * Header StringUtls class
+ *
+ * @author Glenn De Backer <glenn@simplicity.be>
+ *
+ *****************************************************/
 #include <string>
 #include <regex>
 #include <vector>

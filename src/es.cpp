@@ -1,3 +1,10 @@
+/*****************************************************
+ *
+ * Language text: Spanish
+ *
+ * @author Glenn De Backer <glenn@simplicity.be>
+ *
+ *****************************************************/
 #include "../include/es.h"
 
 std::string esText = R"(Había allí unos setecientos u ochocientos, cuanto menos. De talla promedio, pero robustos, ágiles, flexibles, hechos para los saltos prodigiosos, se movían iluminados por los últimos rayos del sol que se ponía al otro lado de las montañas ubicadas al oeste de la rada. Pronto, el rojizo disco desapareció y la oscuridad comenzó a invadir el centro de aquel valle encajado en las lejanas sierras de Sanorra, de Ronda y del desolado país del Cuervo.

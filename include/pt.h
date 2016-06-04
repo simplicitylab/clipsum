@@ -1,10 +1,10 @@
 /*****************************************************
  *
- * Header language: Spanish
+ * Header language: Portuguese
  *
  * @author Glenn De Backer <glenn@simplicity.be>
  *
  *****************************************************/
 #include <string>
 
-extern std::string esText;
+extern std::string ptText;

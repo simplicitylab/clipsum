@@ -10,7 +10,7 @@ EXECUTABLE=clipsum
 # Compiling CLIpsum
 #
 all:
-	$(COMPILER) src/lorem.cpp src/stringutils.cpp src/nl.cpp src/en.cpp src/es.cpp src/de.cpp src/fr.cpp src/it.cpp src/main.cpp $(CFLAGS) -o $(EXECUTABLE)
+	$(COMPILER) src/lorem.cpp src/stringutils.cpp src/nl.cpp src/en.cpp src/es.cpp src/pt.cpp src/de.cpp src/fr.cpp src/it.cpp src/main.cpp $(CFLAGS) -o $(EXECUTABLE)
 
 #
 # Clean

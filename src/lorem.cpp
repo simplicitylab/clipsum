@@ -1,3 +1,11 @@
+/*****************************************************
+ *
+ * Language text: Lorem Ipsum
+ *
+ * @author Glenn De Backer <glenn@simplicity.be>
+ *
+ *****************************************************/
+
 #include "../include/lorem.h"
 
 std::string loremText = R"(Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum metus est, quis convallis est convallis pharetra. Cras semper, tellus in volutpat placerat, ligula erat accumsan felis, at efficitur ex magna eget nisi. In aliquam pretium suscipit. Donec tincidunt tortor aliquam magna aliquet, vestibulum iaculis risus pharetra. Sed quis diam ligula. Ut ut turpis sed tellus vehicula pharetra lobortis porttitor eros. Proin pellentesque quis arcu vel congue. Integer vulputate tempor egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ultrices quam at velit elementum consectetur.
