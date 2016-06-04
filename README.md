@@ -69,7 +69,13 @@ Available texts:
  * es               Spanish text
 ```
 
-## uninstall
+## Running tests
+
+```
+make test
+```
+
+## Uninstall
 
 ```
 make uninstall
