@@ -69,6 +69,7 @@ Available texts:
   * es               Spanish text
   * pt               Portuguese text
   * it               Italian text
+  * ru               Russian text
 ```
 
 ## Running tests

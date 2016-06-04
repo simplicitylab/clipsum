@@ -24,11 +24,11 @@ clean:
 #
 install:
 ifeq ($(UNAME), Linux)
-	cp $(EXECUTABLE) /usr/local/bin/$(EXECUTABLE)
+	cp $(CLIPSUM_EXECUTABLE) /usr/local/bin/$(CLIPSUM_EXECUTABLE)
 endif
 
 ifeq ($(UNAME), Darwin)
-	cp $(EXECUTABLE) /usr/local/bin/$(EXECUTABLE)
+	cp $(CLIPSUM_EXECUTABLE) /usr/local/bin/$(CLIPSUM_EXECUTABLE)
 endif
 
 #
@@ -36,11 +36,11 @@ endif
 #
 uninstall:
 ifeq ($(UNAME), Linux)
-	rm /usr/local/bin/$(EXECUTABLE)
+	rm /usr/local/bin/$(CLIPSUM_EXECUTABLE)
 endif
 
 ifeq ($(UNAME), Darwin)
-	rm /usr/local/bin/$(EXECUTABLE)
+	rm /usr/local/bin/$(CLIPSUM_EXECUTABLE)
 endif
 
 #
