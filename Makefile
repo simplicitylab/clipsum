@@ -11,7 +11,7 @@ TEST_EXECUTABLE=test
 # Compiling CLIpsum
 #
 all:
-	$(COMPILER) src/lorem.cpp src/stringutils.cpp src/nl.cpp src/en.cpp src/es.cpp src/pt.cpp src/de.cpp src/fr.cpp src/it.cpp src/se.cpp  src/ru.cpp src/no.cpp src/fi.cpp src/main.cpp $(CFLAGS) -o $(CLIPSUM_EXECUTABLE)
+	$(COMPILER) src/lorem.cpp src/stringutils.cpp src/nl.cpp src/en.cpp src/es.cpp src/pt.cpp src/de.cpp src/fr.cpp src/it.cpp src/se.cpp  src/ru.cpp src/no.cpp src/fi.cpp src/dk.cpp src/main.cpp $(CFLAGS) -o $(CLIPSUM_EXECUTABLE)
 
 #
 # Clean

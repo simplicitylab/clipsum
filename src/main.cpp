@@ -55,6 +55,8 @@ std::string getSourceText(std::string textName){
     return noText;
   }else if(textName.compare("fi") == 0){
     return fiText;
+  }else if(textName.compare("dk") == 0){
+    return dkText;
   }else{
     return loremText;
   }
@@ -108,7 +110,7 @@ int main(int argc, char* argv[])
       std::cout<< " * se               Swedish text" <<std::endl;
       std::cout<< " * no               Norwegian text" <<std::endl;
       std::cout<< " * fi               Finnish text" <<std::endl;
-      
+      std::cout<< " * dk               Danish text" <<std::endl;
       std::cout<<std::endl;
       exit(0);
     }
