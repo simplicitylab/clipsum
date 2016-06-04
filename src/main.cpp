@@ -6,8 +6,6 @@
  *****************************************************/
 
 #include <iostream>
-#include <iomanip>
-#include <regex>
 
 #include "../include/cxxopts.h"
 #include "../include/lorem.h"
@@ -121,16 +119,37 @@ int main(int argc, char* argv[])
 
     // generate our "ipsum"
     StringUtils strUtils;
+    std::string output;
 
     switch(extractType)
     {
         case sentences:
-          std::cout << strUtils.extractSentences(numberOfItems, sourceText) << std::endl;
+        {
+          // extract sentences
+          std::vector<std::string> extractedSentences;
+          extractedSentences = strUtils.extractSentences(numberOfItems, sourceText);
+
+          for(int i = 0, l = extractedSentences.size(); i < l; i++){
+            output += extractedSentences.at(i);
+          }
+
           break;
+        }
         case words:
-          std::cout<< strUtils.extractWords(numberOfItems, sourceText) << std::endl;
+        {
+          std::vector<std::string> extractedWords;
+          extractedWords = strUtils.extractWords(numberOfItems, sourceText);
+
+          for(int i = 0, l = extractedWords.size(); i < l; i++){
+            output += extractedWords.at(i);
+          }
+
           break;
+        }
     }
+
+    // output
+    std::cout<<output<<std::endl;
 
     return 0;
   }catch (const cxxopts::OptionException& e){

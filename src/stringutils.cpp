@@ -25,9 +25,10 @@ std::string StringUtils::trim(std::string text){
  * @param  string text to extract
  * @return string
  */
-std::string StringUtils::extractSentences(int numberOfSentences, std::string text){
+std::vector<std::string> StringUtils::extractSentences(int numberOfSentences, std::string text){
   // will hold our sentences
   std::vector<std::string> sentences;
+  std::vector<std::string> extractedSentences;
 
   // split our text into sentences
   std::regex rgx ("(.*?)(\\.|\\!|\\?)");
@@ -50,13 +51,12 @@ std::string StringUtils::extractSentences(int numberOfSentences, std::string tex
     numberOfSentences = sentences.size();
   }
 
-  // build our output
-  std::string output;
-
+  // Build our vector of extracted sentences
   for(int i = 0, l = numberOfSentences; i < l; i++){
-    output += sentences.at(i);
+    extractedSentences.push_back(sentences.at(i));
   }
-  return output;
+
+  return extractedSentences;
 }
 
 /**
@@ -65,9 +65,10 @@ std::string StringUtils::extractSentences(int numberOfSentences, std::string tex
  * @param  string text to extract
  * @return string
  */
-std::string StringUtils::extractWords(int numberOfWords, std::string text){
+std::vector<std::string> StringUtils::extractWords(int numberOfWords, std::string text){
   // will hold our words
   std::vector<std::string> words;
+  std::vector<std::string> extractedWords;
 
   // split our text into words
   std::regex rgx ("(.*?)\\s");
@@ -91,12 +92,10 @@ std::string StringUtils::extractWords(int numberOfWords, std::string text){
     numberOfWords = words.size();
   }
 
-  // build our output
-  std::string output;
-
+  // Build our vector of extracted sentences
   for(int i = 0, l = numberOfWords; i < l; i++){
-    output += words.at(i);
+    extractedWords.push_back(words.at(i));
   }
 
-  return output;
+  return extractedWords;
 }
