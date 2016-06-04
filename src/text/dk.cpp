@@ -5,9 +5,9 @@
  * @author Glenn De Backer <glenn@simplicity.be>
  *
  *****************************************************/
-#include "../include/dk.h"
+#include "../../include/dk.h"
 
-std::string dkText = R"(Det havde været en usædvanlig uheldig Sæson for "Pilgrim", en lille, solid Hvalfanger-Skonnert-Brig, der tilhørte en rig kalifornisk Skibsejer, James W. Weldon.
+std::string dkText = R"(Det havde været en usædvanlig uheldig Sæson for "Pilgrim", en lille, solid Hvalfanger-Skonnert-Brig, der tilhørte en rig kalifornisk Skibsejer, James Weldon.
 
 Hvalfangsten havde givet et saa daarligt Resultat, at Kaptajn Hull havde været nødt til at forlade sit sædvanlige Territorium i Sydhavet allerede i Begyndelsen af Januar, længe før Hvalfangerne plejer at vende hjem. Skibets Besætning var mer end utilfreds, de var rasende. Aldrig før havde de bragt saa mager en Høst med hjem. De burde have haft mindst tohundrede Barrels Tran mere end de havde, og da en Del af deres Løn bestod i Procenter af Udbyttet, forstaar man Folkenes ophidsede Sindstemning. De faste Folk forholdt sig dog rolig, medens de for denne Rejse forhyrede Søfolk, Mænd af en mer end tvivlsom Karakter, viste saa tydelige Tegn til aabenbar Opsætsighed, at Kaptajnen maatte frygte et ligefrem Mytteri. Følgelig var der intet andet at gøre end at vende om og sætte Kursen imod Ny Zeeland, som kom i Sigte den 15. Januar. Da Skibet havde kastet Anker i Waitemata, Aucklands Havn, blev Mandskabet afmønstret.
 

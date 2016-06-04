@@ -6,7 +6,7 @@
  *
  *****************************************************/
 
-#include "../include/nl.h"
+#include "../../include/nl.h"
 
 std::string nlText = R"(Thans begint het tweede gedeelte mijner onderzeesche reis. Het eerste eindigt met het aangrijpend tooneel op het kerkhof, dat zulk een diepen indruk op mijn geest maakte. Zoo ging dus het leven van kapitein Nemo in die onmetelijke zee voorbij, en zelfs had hij zich een graf bereid in den ontoegankelijken afgrond. Daar zou zelfs geen enkel zeemonster den laatsten slaap storen van de mannen van den Nautilus, van de vrienden, die zoowel in het leven als in den dood innig aan elkander verbonden waren! "zelfs buiten het bereik der menschen," had de kapitein er bijgevoegd! Altijd dat vreeselijk, onverzoenlijk wantrouwen jegens de menschelijke maatschappij!
 

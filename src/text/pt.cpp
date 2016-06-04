@@ -5,7 +5,7 @@
  * @author Glenn De Backer <glenn@simplicity.be>
  *
  *****************************************************/
-#include "../include/pt.h"
+#include "../../include/pt.h"
 
 std::string ptText = R"(Durante a guerra federal dos Estados Unidos fundou-se, na cidade de Baltimore, mesmo no centro do Maryland, um novo club de grande influencia.
 

@@ -5,7 +5,7 @@
  * @author Glenn De Backer <glenn@simplicity.be>
  *
  *****************************************************/
-#include "../include/fi.h"
+#include "../../include/fi.h"
 
 std::string fiText = R"(Vi hadde vort kontor midt i byen. Det var et høit og rummelig værelse med mange og store speilglasvinduer. Et glasskap indeholdt omtrent to hundrede flasker av Pinkertons Thirteen Star. Etiketten var meget pragtfuld. Skapets dører svinget ustanselig paa hængslerne; hver fremmed som kom ind paa kontoret, fik med sig en flaske. Jeg protesterte litt mot denne ødselhet. "Kjære Loudon," sa Pinkerton, "vil du da aldrig bli forretningsmand? Det er jo den billigste annonse jeg har. Brændevinen koster mig næsten ingenting."
 

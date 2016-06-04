@@ -5,7 +5,7 @@
  * @author Glenn De Backer <glenn@simplicity.be>
  *
  *****************************************************/
-#include "../include/de.h"
+#include "../../include/de.h"
 
 std::string deText = R"(Irland, das eine Landfläche von zwanzig Millionen Acres - gegen acht Millionen Hektar - einnimmt, wird im Namen der Beherrscher Großbritanniens von einem Vicekönig oder Lord-Lieutenant unter Mitwirkung eines "Privat-Rathes" regiert. Es zerfällt in vier Provinzen: Leicester im Osten, Munster im Süden, Connaught im Westen und Ulster im Norden.
 
