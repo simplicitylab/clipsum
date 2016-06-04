@@ -1,6 +1,6 @@
 # CLIpsum
 
-A CLI Lorem Ipsum (or text in other languages) generator.
+A CLI Lorem Ipsum (or text in other languages) generator. It main focus is generating text for multiple languages, ideal if you build things that are multilingual.
 
 ## Platforms
 
@@ -77,7 +77,7 @@ make test
 
 If all is correct you should see the following output
 
-``` 
+```
 ===============================================================================
 All tests passed (2 assertions in 2 test cases)
 ```
